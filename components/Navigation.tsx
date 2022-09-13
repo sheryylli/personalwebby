@@ -5,10 +5,10 @@ import dynamic from 'next/dynamic'
 const ThemeToggle = dynamic(() => import('./ThemeToggle'), { ssr: false })
 
 const links = [
-  { location: '🌱 Digital Garden', url: '/' },
-  { location: '🏷️ HTML', url: '/category/html' },
-  { location: '😎 CSS', url: '/category/css' },
-  { location: '📜 JavaScript', url: '/category/javascript' },
+  { location: 'blog', url: '/' },
+  //{ location: '?', url: '/category/html' },
+  //{ location: '?', url: '/category/css' },
+  //{ location: '?', url: '/category/javascript' },
 ]
 
 function Links() {
