@@ -1,7 +1,7 @@
 import css from 'styled-jsx/css'
 
 const styles = css.global`
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Poppins:wght@400;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600&display=swap');
 
   /*
     CSS Reset
@@ -20,7 +20,7 @@ const styles = css.global`
   */
 
   :root {
-    --font-serif: 'Poppins', sans-serif;
+    --font-serif: 'Ibarra Real Nova', sans-serif;
     --font-mono: 'Noto Sans Mono', monospace;
     --font-primary: 3rem;
     --font-secondary: 1.5rem;
@@ -295,3 +295,4 @@ const styles = css.global`
 `
 
 export default styles
+
