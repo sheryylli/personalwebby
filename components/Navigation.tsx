@@ -5,8 +5,11 @@ import dynamic from 'next/dynamic'
 const ThemeToggle = dynamic(() => import('./ThemeToggle'), { ssr: false })
 
 const links = [
-  { location: 'blog', url: '/' },
-  //{ location: '?', url: '/category/html' },
+  { location: 'Sheryl Li', url: '/category/html' },
+  { location: 'Blog', url: '/' },
+  { location: 'Projects', url: '/' },
+  { location: 'Scrapbook', url: '/' },
+  { location: 'Projects', url: '/' },
   //{ location: '?', url: '/category/css' },
   //{ location: '?', url: '/category/javascript' },
 ]
